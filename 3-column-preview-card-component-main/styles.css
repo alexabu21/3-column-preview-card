@@ -1,0 +1,76 @@
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 10px 10px 10px 10px;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0px 10px 50px 10px;
+}
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 400px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    top: 150px;
+    left:200px;
+    bottom: 300px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 400px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    left: 440px;
+    top: 150px;
+    bottom: 300px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    color:  hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 1px;
+    font-size: 15px;
+    height: 400px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    left: 680px;
+    top: 150px;
+    bottom: 300px;
+}
+.para{
+}
+.btn-sedan{
+    color: hsl(31, 77%, 52%);
+    background-color:  hsl(0, 0%, 95%);
+}
+.btn-suvs{
+    color: hsl(184, 100%, 22%);
+    background-color : hsl(0, 0%, 95%);
+
+}
+.btn-luxury{
+    color:hsl(179, 100%, 13%) ;
+    background-color:  hsl(0, 0%, 95%);
+    
+}
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+}
+.btn:hover{
+    border: 3px solid;
+    cursor: pointer;
+}
